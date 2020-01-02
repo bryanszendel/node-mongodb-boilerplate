@@ -1,4 +1,3 @@
-const db = require('../database/db-config.js');
 const Items = require('../items/items-model.js');
 
 module.exports = {
