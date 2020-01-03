@@ -10,23 +10,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bryanszendel/node-backend-boilerplate.git"
+    "url": "git+https://github.com/bryanszendel/salon-app-backend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bryanszendel/node-backend-boilerplate/issues"
+    "url": "https://github.com/bryanszendel/salon-app-backend/issues"
   },
-  "homepage": "https://github.com/bryanszendel/node-backend-boilerplate#readme",
+  "homepage": "https://github.com/bryanszendel/salon-app-backend#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
-    "knex": "^0.20.2",
-    "knex-cleaner": "^1.3.0",
-    "pg": "^7.14.0",
-    "sqlite3": "^4.1.0"
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
